@@ -1,0 +1,366 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Microsoft (R) Visual C# Derleyicisi",
+        "version": "4.4.0.0",
+        "fileVersion": "4.4.0-4.22520.11 (9e075f03)",
+        "semanticVersion": "4.4.0",
+        "language": "tr-TR"
+      },
+      "results": [
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Null atanamaz özellik 'Cars', oluşturucudan çıkış yaparken null olmayan bir değer içermelidir. özellik alanını null atanabilir olarak bildirmeyi düşünün.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/omerf/Desktop/ReCapProject/ReCapProject/DataAccess/Concrete/EntityFramework/ReCapDbContext.cs",
+                "region": {
+                  "startLine": 20,
+                  "startColumn": 27,
+                  "endLine": 20,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/omerf/Desktop/ReCapProject/ReCapProject/DataAccess/Concrete/EntityFramework/ReCapDbContext.cs",
+                "region": {
+                  "startLine": 20,
+                  "startColumn": 27,
+                  "endLine": 20,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Null atanamaz özellik 'Brands', oluşturucudan çıkış yaparken null olmayan bir değer içermelidir. özellik alanını null atanabilir olarak bildirmeyi düşünün.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/omerf/Desktop/ReCapProject/ReCapProject/DataAccess/Concrete/EntityFramework/ReCapDbContext.cs",
+                "region": {
+                  "startLine": 21,
+                  "startColumn": 29,
+                  "endLine": 21,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/omerf/Desktop/ReCapProject/ReCapProject/DataAccess/Concrete/EntityFramework/ReCapDbContext.cs",
+                "region": {
+                  "startLine": 21,
+                  "startColumn": 29,
+                  "endLine": 21,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Null atanamaz özellik 'Colors', oluşturucudan çıkış yaparken null olmayan bir değer içermelidir. özellik alanını null atanabilir olarak bildirmeyi düşünün.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/omerf/Desktop/ReCapProject/ReCapProject/DataAccess/Concrete/EntityFramework/ReCapDbContext.cs",
+                "region": {
+                  "startLine": 22,
+                  "startColumn": 29,
+                  "endLine": 22,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/omerf/Desktop/ReCapProject/ReCapProject/DataAccess/Concrete/EntityFramework/ReCapDbContext.cs",
+                "region": {
+                  "startLine": 22,
+                  "startColumn": 29,
+                  "endLine": 22,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Null atanamaz özellik 'Rentals', oluşturucudan çıkış yaparken null olmayan bir değer içermelidir. özellik alanını null atanabilir olarak bildirmeyi düşünün.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/omerf/Desktop/ReCapProject/ReCapProject/DataAccess/Concrete/EntityFramework/ReCapDbContext.cs",
+                "region": {
+                  "startLine": 23,
+                  "startColumn": 30,
+                  "endLine": 23,
+                  "endColumn": 37
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/omerf/Desktop/ReCapProject/ReCapProject/DataAccess/Concrete/EntityFramework/ReCapDbContext.cs",
+                "region": {
+                  "startLine": 23,
+                  "startColumn": 30,
+                  "endLine": 23,
+                  "endColumn": 37
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Null atanamaz özellik 'Users', oluşturucudan çıkış yaparken null olmayan bir değer içermelidir. özellik alanını null atanabilir olarak bildirmeyi düşünün.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/omerf/Desktop/ReCapProject/ReCapProject/DataAccess/Concrete/EntityFramework/ReCapDbContext.cs",
+                "region": {
+                  "startLine": 24,
+                  "startColumn": 28,
+                  "endLine": 24,
+                  "endColumn": 33
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/omerf/Desktop/ReCapProject/ReCapProject/DataAccess/Concrete/EntityFramework/ReCapDbContext.cs",
+                "region": {
+                  "startLine": 24,
+                  "startColumn": 28,
+                  "endLine": 24,
+                  "endColumn": 33
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Null atanamaz özellik 'Customers', oluşturucudan çıkış yaparken null olmayan bir değer içermelidir. özellik alanını null atanabilir olarak bildirmeyi düşünün.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/omerf/Desktop/ReCapProject/ReCapProject/DataAccess/Concrete/EntityFramework/ReCapDbContext.cs",
+                "region": {
+                  "startLine": 25,
+                  "startColumn": 32,
+                  "endLine": 25,
+                  "endColumn": 41
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/omerf/Desktop/ReCapProject/ReCapProject/DataAccess/Concrete/EntityFramework/ReCapDbContext.cs",
+                "region": {
+                  "startLine": 25,
+                  "startColumn": 32,
+                  "endLine": 25,
+                  "endColumn": 41
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Null atanamaz özellik 'CarImages', oluşturucudan çıkış yaparken null olmayan bir değer içermelidir. özellik alanını null atanabilir olarak bildirmeyi düşünün.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/omerf/Desktop/ReCapProject/ReCapProject/DataAccess/Concrete/EntityFramework/ReCapDbContext.cs",
+                "region": {
+                  "startLine": 26,
+                  "startColumn": 32,
+                  "endLine": 26,
+                  "endColumn": 41
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/omerf/Desktop/ReCapProject/ReCapProject/DataAccess/Concrete/EntityFramework/ReCapDbContext.cs",
+                "region": {
+                  "startLine": 26,
+                  "startColumn": 32,
+                  "endLine": 26,
+                  "endColumn": 41
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Null atanamaz özellik 'OperationClaims', oluşturucudan çıkış yaparken null olmayan bir değer içermelidir. özellik alanını null atanabilir olarak bildirmeyi düşünün.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/omerf/Desktop/ReCapProject/ReCapProject/DataAccess/Concrete/EntityFramework/ReCapDbContext.cs",
+                "region": {
+                  "startLine": 27,
+                  "startColumn": 38,
+                  "endLine": 27,
+                  "endColumn": 53
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/omerf/Desktop/ReCapProject/ReCapProject/DataAccess/Concrete/EntityFramework/ReCapDbContext.cs",
+                "region": {
+                  "startLine": 27,
+                  "startColumn": 38,
+                  "endLine": 27,
+                  "endColumn": 53
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Null atanamaz özellik 'UserOperationClaims', oluşturucudan çıkış yaparken null olmayan bir değer içermelidir. özellik alanını null atanabilir olarak bildirmeyi düşünün.",
+          "suppressionStates": [
+            "suppressedInSource"
+          ],
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/omerf/Desktop/ReCapProject/ReCapProject/DataAccess/Concrete/EntityFramework/ReCapDbContext.cs",
+                "region": {
+                  "startLine": 28,
+                  "startColumn": 42,
+                  "endLine": 28,
+                  "endColumn": 61
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/omerf/Desktop/ReCapProject/ReCapProject/DataAccess/Concrete/EntityFramework/ReCapDbContext.cs",
+                "region": {
+                  "startLine": 28,
+                  "startColumn": 42,
+                  "endLine": 28,
+                  "endColumn": 61
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        }
+      ],
+      "rules": {
+        "CS8618": {
+          "id": "CS8618",
+          "shortDescription": "Null atanamaz alan, oluşturucudan çıkış yaparken null olmayan bir değer içermelidir. Alanı null atanabilir olarak bildirmeyi düşünün.",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8618)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

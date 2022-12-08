@@ -1,0 +1,29 @@
+Product projects
+---------------------------------------
+C:\Users\omerf\Desktop\ReCapProject\ReCapProject\Core\Core.csproj
+C:\Users\omerf\Desktop\ReCapProject\ReCapProject\Entities\Entities.csproj
+C:\Users\omerf\Desktop\ReCapProject\ReCapProject\DataAccess\DataAccess.csproj
+C:\Users\omerf\Desktop\ReCapProject\ReCapProject\Business\Business.csproj
+C:\Users\omerf\Desktop\ReCapProject\ReCapProject\Console\Console.csproj
+C:\Users\omerf\Desktop\ReCapProject\ReCapProject\WebAPI\WebAPI.csproj
+
+
+Test projects
+---------------------------------------
+
+
+Invalid projects
+---------------------------------------
+{none}
+
+
+Skipped projects
+---------------------------------------
+{none}
+
+
+Excluded projects
+---------------------------------------
+{none}
+
+

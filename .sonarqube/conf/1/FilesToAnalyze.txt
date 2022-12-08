@@ -1,0 +1,11 @@
+﻿C:\Users\omerf\Desktop\ReCapProject\ReCapProject\Entities\Concrete\Brand.cs
+C:\Users\omerf\Desktop\ReCapProject\ReCapProject\Entities\Concrete\Car.cs
+C:\Users\omerf\Desktop\ReCapProject\ReCapProject\Entities\Concrete\CarImage.cs
+C:\Users\omerf\Desktop\ReCapProject\ReCapProject\Entities\Concrete\Color.cs
+C:\Users\omerf\Desktop\ReCapProject\ReCapProject\Entities\Concrete\Customer.cs
+C:\Users\omerf\Desktop\ReCapProject\ReCapProject\Entities\Concrete\Rental.cs
+C:\Users\omerf\Desktop\ReCapProject\ReCapProject\Entities\DTOs\CarDetailDto.cs
+C:\Users\omerf\Desktop\ReCapProject\ReCapProject\Entities\DTOs\RentalDetailDto.cs
+C:\Users\omerf\Desktop\ReCapProject\ReCapProject\Entities\DTOs\UserDto.cs
+C:\Users\omerf\Desktop\ReCapProject\ReCapProject\Entities\DTOs\UserForLoginDto.cs
+C:\Users\omerf\Desktop\ReCapProject\ReCapProject\Entities\DTOs\UserForRegisterDto.cs

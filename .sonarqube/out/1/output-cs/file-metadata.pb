@@ -1,0 +1,15 @@
+T
+KC:\Users\omerf\Desktop\ReCapProject\ReCapProject\Entities\Concrete\Brand.csutf-8R
+IC:\Users\omerf\Desktop\ReCapProject\ReCapProject\Entities\Concrete\Car.csutf-8W
+NC:\Users\omerf\Desktop\ReCapProject\ReCapProject\Entities\Concrete\CarImage.csutf-8T
+KC:\Users\omerf\Desktop\ReCapProject\ReCapProject\Entities\Concrete\Color.csutf-8W
+NC:\Users\omerf\Desktop\ReCapProject\ReCapProject\Entities\Concrete\Customer.csutf-8U
+LC:\Users\omerf\Desktop\ReCapProject\ReCapProject\Entities\Concrete\Rental.csutf-8W
+NC:\Users\omerf\Desktop\ReCapProject\ReCapProject\Entities\DTOs\CarDetailDto.csutf-8Z
+QC:\Users\omerf\Desktop\ReCapProject\ReCapProject\Entities\DTOs\RentalDetailDto.csutf-8R
+IC:\Users\omerf\Desktop\ReCapProject\ReCapProject\Entities\DTOs\UserDto.csutf-8Z
+QC:\Users\omerf\Desktop\ReCapProject\ReCapProject\Entities\DTOs\UserForLoginDto.csutf-8]
+TC:\Users\omerf\Desktop\ReCapProject\ReCapProject\Entities\DTOs\UserForRegisterDto.csutf-8p
+eC:\Users\omerf\Desktop\ReCapProject\ReCapProject\Entities\obj\Debug\net6.0\Entities.GlobalUsings.g.csutf-8„
+yC:\Users\omerf\Desktop\ReCapProject\ReCapProject\Entities\obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.csutf-8n
+cC:\Users\omerf\Desktop\ReCapProject\ReCapProject\Entities\obj\Debug\net6.0\Entities.AssemblyInfo.csutf-8

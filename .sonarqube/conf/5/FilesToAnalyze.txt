@@ -1,0 +1,17 @@
+﻿C:\Users\omerf\Desktop\ReCapProject\ReCapProject\WebAPI\Controllers\AuthController.cs
+C:\Users\omerf\Desktop\ReCapProject\ReCapProject\WebAPI\Controllers\BrandsController.cs
+C:\Users\omerf\Desktop\ReCapProject\ReCapProject\WebAPI\Controllers\CarImagesController.cs
+C:\Users\omerf\Desktop\ReCapProject\ReCapProject\WebAPI\Controllers\CarsController.cs
+C:\Users\omerf\Desktop\ReCapProject\ReCapProject\WebAPI\Controllers\ColorsController.cs
+C:\Users\omerf\Desktop\ReCapProject\ReCapProject\WebAPI\Controllers\CustomersController.cs
+C:\Users\omerf\Desktop\ReCapProject\ReCapProject\WebAPI\Controllers\RentalsController.cs
+C:\Users\omerf\Desktop\ReCapProject\ReCapProject\WebAPI\Controllers\UsersController.cs
+C:\Users\omerf\Desktop\ReCapProject\ReCapProject\WebAPI\Program.cs
+C:\Users\omerf\Desktop\ReCapProject\ReCapProject\WebAPI\obj\Debug\net6.0\WebAPI.GlobalUsings.g.cs
+C:\Users\omerf\Desktop\ReCapProject\ReCapProject\WebAPI\obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.cs
+C:\Users\omerf\Desktop\ReCapProject\ReCapProject\WebAPI\obj\Debug\net6.0\WebAPI.AssemblyInfo.cs
+C:\Users\omerf\Desktop\ReCapProject\ReCapProject\WebAPI\obj\Debug\net6.0\WebAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\omerf\Desktop\ReCapProject\ReCapProject\WebAPI\wwwroot\Uploads\Images\default.jpg
+C:\Users\omerf\Desktop\ReCapProject\ReCapProject\WebAPI\appsettings.Development.json
+C:\Users\omerf\Desktop\ReCapProject\ReCapProject\WebAPI\appsettings.json
+C:\Users\omerf\Desktop\ReCapProject\ReCapProject\WebAPI\Properties\launchSettings.json

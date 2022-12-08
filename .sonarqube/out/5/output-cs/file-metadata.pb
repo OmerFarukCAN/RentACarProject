@@ -1,0 +1,14 @@
+^
+UC:\Users\omerf\Desktop\ReCapProject\ReCapProject\WebAPI\Controllers\AuthController.csutf-8`
+WC:\Users\omerf\Desktop\ReCapProject\ReCapProject\WebAPI\Controllers\BrandsController.csutf-8c
+ZC:\Users\omerf\Desktop\ReCapProject\ReCapProject\WebAPI\Controllers\CarImagesController.csutf-8^
+UC:\Users\omerf\Desktop\ReCapProject\ReCapProject\WebAPI\Controllers\CarsController.csutf-8`
+WC:\Users\omerf\Desktop\ReCapProject\ReCapProject\WebAPI\Controllers\ColorsController.csutf-8c
+ZC:\Users\omerf\Desktop\ReCapProject\ReCapProject\WebAPI\Controllers\CustomersController.csutf-8a
+XC:\Users\omerf\Desktop\ReCapProject\ReCapProject\WebAPI\Controllers\RentalsController.csutf-8_
+VC:\Users\omerf\Desktop\ReCapProject\ReCapProject\WebAPI\Controllers\UsersController.csutf-8K
+BC:\Users\omerf\Desktop\ReCapProject\ReCapProject\WebAPI\Program.csutf-8l
+aC:\Users\omerf\Desktop\ReCapProject\ReCapProject\WebAPI\obj\Debug\net6.0\WebAPI.GlobalUsings.g.csutf-8‚
+wC:\Users\omerf\Desktop\ReCapProject\ReCapProject\WebAPI\obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.csutf-8j
+_C:\Users\omerf\Desktop\ReCapProject\ReCapProject\WebAPI\obj\Debug\net6.0\WebAPI.AssemblyInfo.csutf-8}
+rC:\Users\omerf\Desktop\ReCapProject\ReCapProject\WebAPI\obj\Debug\net6.0\WebAPI.MvcApplicationPartsAssemblyInfo.csutf-8

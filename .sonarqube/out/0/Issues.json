@@ -1,0 +1,902 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Microsoft (R) Visual C# Derleyicisi",
+        "version": "4.4.0.0",
+        "fileVersion": "4.4.0-4.22520.11 (9e075f03)",
+        "semanticVersion": "4.4.0",
+        "language": "tr-TR"
+      },
+      "results": [
+        {
+          "ruleId": "CS8601",
+          "level": "warning",
+          "message": "Olası null başvuru ataması.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/omerf/Desktop/ReCapProject/ReCapProject/Core/Utilities/Security/JWT/JwtHelper.cs",
+                "region": {
+                  "startLine": 24,
+                  "startColumn": 29,
+                  "endLine": 24,
+                  "endColumn": 89
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Null atanamaz alan '_tokenOptions', oluşturucudan çıkış yaparken null olmayan bir değer içermelidir. alan alanını null atanabilir olarak bildirmeyi düşünün.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/omerf/Desktop/ReCapProject/ReCapProject/Core/Utilities/Security/JWT/JwtHelper.cs",
+                "region": {
+                  "startLine": 21,
+                  "startColumn": 16,
+                  "endLine": 21,
+                  "endColumn": 25
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/omerf/Desktop/ReCapProject/ReCapProject/Core/Utilities/Security/JWT/JwtHelper.cs",
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 30,
+                  "endLine": 19,
+                  "endColumn": 43
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8603",
+          "level": "warning",
+          "message": "Olası null başvuru dönüşü.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/omerf/Desktop/ReCapProject/ReCapProject/Core/Utilities/Business/BusinessRules.cs",
+                "region": {
+                  "startLine": 21,
+                  "startColumn": 20,
+                  "endLine": 21,
+                  "endColumn": 24
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8603",
+          "level": "warning",
+          "message": "Olası null başvuru dönüşü.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/omerf/Desktop/ReCapProject/ReCapProject/Core/Utilities/Helpers/FileHelpers/FileHelperManager.cs",
+                "region": {
+                  "startLine": 32,
+                  "startColumn": 20,
+                  "endLine": 32,
+                  "endColumn": 24
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Null atanamaz özellik 'ServiceProvider', oluşturucudan çıkış yaparken null olmayan bir değer içermelidir. özellik alanını null atanabilir olarak bildirmeyi düşünün.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/omerf/Desktop/ReCapProject/ReCapProject/Core/Utilities/IoC/ServiceTool.cs",
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 40,
+                  "endLine": 12,
+                  "endColumn": 55
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/omerf/Desktop/ReCapProject/ReCapProject/Core/Utilities/IoC/ServiceTool.cs",
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 40,
+                  "endLine": 12,
+                  "endColumn": 55
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8604",
+          "level": "warning",
+          "message": "'SecurityKey SecurityKeyHelper.CreateSecurityKey(string securityKey)' içindeki 'securityKey' parametresi için olası null başvuru bağımsız değişkeni.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/omerf/Desktop/ReCapProject/ReCapProject/Core/Utilities/Security/JWT/JwtHelper.cs",
+                "region": {
+                  "startLine": 30,
+                  "startColumn": 67,
+                  "endLine": 30,
+                  "endColumn": 92
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8604",
+          "level": "warning",
+          "message": "'DataResult<T>.DataResult(T data, bool success, string message)' içindeki 'data' parametresi için olası null başvuru bağımsız değişkeni.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/omerf/Desktop/ReCapProject/ReCapProject/Core/Utilities/Results/SuccessDataResult.cs",
+                "region": {
+                  "startLine": 20,
+                  "startColumn": 57,
+                  "endLine": 20,
+                  "endColumn": 64
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8604",
+          "level": "warning",
+          "message": "'DataResult<T>.DataResult(T data, bool success)' içindeki 'data' parametresi için olası null başvuru bağımsız değişkeni.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/omerf/Desktop/ReCapProject/ReCapProject/Core/Utilities/Results/SuccessDataResult.cs",
+                "region": {
+                  "startLine": 25,
+                  "startColumn": 43,
+                  "endLine": 25,
+                  "endColumn": 50
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Null atanamaz özellik 'Message', oluşturucudan çıkış yaparken null olmayan bir değer içermelidir. özellik alanını null atanabilir olarak bildirmeyi düşünün.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/omerf/Desktop/ReCapProject/ReCapProject/Core/Utilities/Results/Result.cs",
+                "region": {
+                  "startLine": 16,
+                  "startColumn": 16,
+                  "endLine": 16,
+                  "endColumn": 22
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/Users/omerf/Desktop/ReCapProject/ReCapProject/Core/Utilities/Results/Result.cs",
+                "region": {
+                  "startLine": 23,
+                  "startColumn": 23,
+                  "endLine": 23,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8604",
+          "level": "warning",
+          "message": "'DataResult<T>.DataResult(T data, bool success, string message)' içindeki 'data' parametresi için olası null başvuru bağımsız değişkeni.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/omerf/Desktop/ReCapProject/ReCapProject/Core/Utilities/Results/ErrorDataResult.cs",
+                "region": {
+                  "startLine": 20,
+                  "startColumn": 55,
+                  "endLine": 20,
+                  "endColumn": 62
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8604",
+          "level": "warning",
+          "message": "'DataResult<T>.DataResult(T data, bool success)' içindeki 'data' parametresi için olası null başvuru bağımsız değişkeni.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/omerf/Desktop/ReCapProject/ReCapProject/Core/Utilities/Results/ErrorDataResult.cs",
+                "region": {
+                  "startLine": 25,
+                  "startColumn": 41,
+                  "endLine": 25,
+                  "endColumn": 48
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8603",
+          "level": "warning",
+          "message": "Olası null başvuru dönüşü.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/omerf/Desktop/ReCapProject/ReCapProject/Core/Extensions/ClaimsPrincipalExtensions.cs",
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 20,
+                  "endLine": 15,
+                  "endColumn": 26
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8604",
+          "level": "warning",
+          "message": "'IEnumerable<MethodInterceptionBaseAttribute> CustomAttributeExtensions.GetCustomAttributes<MethodInterceptionBaseAttribute>(MemberInfo element, bool inherit)' içindeki 'element' parametresi için olası null başvuru bağımsız değişkeni.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/omerf/Desktop/ReCapProject/ReCapProject/Core/Utilities/Interceptors/AspectInterceptorSelector.cs",
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 36,
+                  "endLine": 17,
+                  "endColumn": 63
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8600",
+          "level": "warning",
+          "message": "Null sabit değeri veya olası null değeri, boş değer atanamaz türe dönüştürülüyor.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/omerf/Desktop/ReCapProject/ReCapProject/Core/Aspects/Autofac/Validation/ValidationAspect.cs",
+                "region": {
+                  "startLine": 27,
+                  "startColumn": 29,
+                  "endLine": 27,
+                  "endColumn": 81
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8602",
+          "level": "warning",
+          "message": "Olası bir null başvurunun başvurma işlemi.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/omerf/Desktop/ReCapProject/ReCapProject/Core/Aspects/Autofac/Validation/ValidationAspect.cs",
+                "region": {
+                  "startLine": 28,
+                  "startColumn": 30,
+                  "endLine": 28,
+                  "endColumn": 53
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8604",
+          "level": "warning",
+          "message": "'void ValidationTool.Validate(IValidator validator, object entity)' içindeki 'validator' parametresi için olası null başvuru bağımsız değişkeni.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/omerf/Desktop/ReCapProject/ReCapProject/Core/Aspects/Autofac/Validation/ValidationAspect.cs",
+                "region": {
+                  "startLine": 32,
+                  "startColumn": 41,
+                  "endLine": 32,
+                  "endColumn": 50
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8603",
+          "level": "warning",
+          "message": "Olası null başvuru dönüşü.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/omerf/Desktop/ReCapProject/ReCapProject/Core/Extensions/ClaimsPrincipalExtensions.cs",
+                "region": {
+                  "startLine": 20,
+                  "startColumn": 20,
+                  "endLine": 20,
+                  "endColumn": 60
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8604",
+          "level": "warning",
+          "message": "'void ClaimExtensions.AddEmail(ICollection<Claim> claims, string email)' içindeki 'email' parametresi için olası null başvuru bağımsız değişkeni.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/omerf/Desktop/ReCapProject/ReCapProject/Core/Utilities/Security/JWT/JwtHelper.cs",
+                "region": {
+                  "startLine": 62,
+                  "startColumn": 29,
+                  "endLine": 62,
+                  "endColumn": 39
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8620",
+          "level": "warning",
+          "message": "'string?[]' türündeki bağımsız değişken, başvuru türlerinin null atanabilirlik farklılıkları nedeniyle 'void ClaimExtensions.AddRoles(ICollection<Claim> claims, string[] roles)' içinde 'string[]' türündeki 'roles' parametresi için kullanılamaz.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/omerf/Desktop/ReCapProject/ReCapProject/Core/Utilities/Security/JWT/JwtHelper.cs",
+                "region": {
+                  "startLine": 64,
+                  "startColumn": 29,
+                  "endLine": 64,
+                  "endColumn": 74
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1118",
+          "level": "warning",
+          "message": "Add a 'protected' constructor or the 'static' keyword to the class declaration.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/omerf/Desktop/ReCapProject/ReCapProject/Core/Utilities/Business/BusinessRules.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 18,
+                  "endLine": 10,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2933",
+          "level": "warning",
+          "message": "Make '_validatorType' 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/omerf/Desktop/ReCapProject/ReCapProject/Core/Aspects/Autofac/Validation/ValidationAspect.cs",
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 22,
+                  "endLine": 15,
+                  "endColumn": 36
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1118",
+          "level": "warning",
+          "message": "Add a 'protected' constructor or the 'static' keyword to the class declaration.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/omerf/Desktop/ReCapProject/ReCapProject/Core/Utilities/Security/Encryption/SecurityKeyHelper.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 18,
+                  "endLine": 10,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1118",
+          "level": "warning",
+          "message": "Add a 'protected' constructor or the 'static' keyword to the class declaration.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/omerf/Desktop/ReCapProject/ReCapProject/Core/Utilities/Security/Hashing/HashingHelper.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 18,
+                  "endLine": 9,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1118",
+          "level": "warning",
+          "message": "Add a 'protected' constructor or the 'static' keyword to the class declaration.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/omerf/Desktop/ReCapProject/ReCapProject/Core/Utilities/Security/Encryption/SigningCredentialsHelper.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 18,
+                  "endLine": 10,
+                  "endColumn": 42
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3246",
+          "level": "warning",
+          "message": "Add the 'out' keyword to parameter 'T' to make it 'covariant'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/omerf/Desktop/ReCapProject/ReCapProject/Core/Utilities/Results/IDataResult.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 34,
+                  "endLine": 9,
+                  "endColumn": 35
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2933",
+          "level": "warning",
+          "message": "Make '_tokenOptions' 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/omerf/Desktop/ReCapProject/ReCapProject/Core/Utilities/Security/JWT/JwtHelper.cs",
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 30,
+                  "endLine": 19,
+                  "endColumn": 43
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3376",
+          "level": "warning",
+          "message": "Make this class name end with 'Attribute'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/omerf/Desktop/ReCapProject/ReCapProject/Core/Utilities/Interceptors/MethodInterception.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 27,
+                  "endLine": 10,
+                  "endColumn": 45
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S927",
+          "level": "warning",
+          "message": "Rename parameter 'serviceCollections' to 'serviceCollection' to match the interface declaration.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/omerf/Desktop/ReCapProject/ReCapProject/Core/DependencyResolvers/CoreModule.cs",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 45,
+                  "endLine": 10,
+                  "endColumn": 63
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S112",
+          "level": "warning",
+          "message": "'System.Exception' should not be thrown by user code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/omerf/Desktop/ReCapProject/ReCapProject/Core/Aspects/Autofac/Validation/ValidationAspect.cs",
+                "region": {
+                  "startLine": 20,
+                  "startColumn": 23,
+                  "endLine": 20,
+                  "endColumn": 78
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1822",
+          "level": "note",
+          "message": "Member 'SetClaims' does not access instance data and can be marked as static",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/omerf/Desktop/ReCapProject/ReCapProject/Core/Utilities/Security/JWT/JwtHelper.cs",
+                "region": {
+                  "startLine": 58,
+                  "startColumn": 36,
+                  "endLine": 58,
+                  "endColumn": 45
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        }
+      ],
+      "rules": {
+        "CA1822": {
+          "id": "CA1822",
+          "shortDescription": "Mark members as static",
+          "fullDescription": "Members that do not access instance data or call instance methods can be marked as static. After you mark the methods as static, the compiler will emit nonvirtual call sites to these members. This can give you a measurable performance gain for performance-sensitive code.",
+          "defaultLevel": "note",
+          "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1822",
+          "properties": {
+            "category": "Performance",
+            "isEnabledByDefault": true,
+            "tags": [
+              "PortedFromFxCop",
+              "Telemetry",
+              "EnabledRuleInAggressiveMode"
+            ]
+          }
+        },
+        "CS8600": {
+          "id": "CS8600",
+          "shortDescription": "Null sabit değeri veya olası null değeri, boş değer atanamaz türe dönüştürülüyor.",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8600)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "CS8601": {
+          "id": "CS8601",
+          "shortDescription": "Olası null başvuru ataması.",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8601)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "CS8602": {
+          "id": "CS8602",
+          "shortDescription": "Olası bir null başvurunun başvurma işlemi.",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8602)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "CS8603": {
+          "id": "CS8603",
+          "shortDescription": "Olası null başvuru dönüşü.",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8603)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "CS8604": {
+          "id": "CS8604",
+          "shortDescription": "Olası null başvuru bağımsız değişkeni.",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8604)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "CS8618": {
+          "id": "CS8618",
+          "shortDescription": "Null atanamaz alan, oluşturucudan çıkış yaparken null olmayan bir değer içermelidir. Alanı null atanabilir olarak bildirmeyi düşünün.",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8618)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "CS8620": {
+          "id": "CS8620",
+          "shortDescription": "Bağımsız değişken, başvuru türlerinin null atanabilirlik farklılıkları nedeniyle parametre için kullanılamaz.",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8620)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "S1118": {
+          "id": "S1118",
+          "shortDescription": "Utility classes should not have public constructors",
+          "fullDescription": "Utility classes, which are collections of static members, are not meant to be instantiated.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1118",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S112": {
+          "id": "S112",
+          "shortDescription": "General exceptions should never be thrown",
+          "fullDescription": "Throwing such general exceptions as Exception, SystemException, ApplicationException, IndexOutOfRangeException, NullReferenceException, OutOfMemoryException and ExecutionEngineException prevents calling methods from handling true, system-generated exceptions differently than application-generated errors.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-112",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S2933": {
+          "id": "S2933",
+          "shortDescription": "Fields that are only assigned in the constructor should be \"readonly\"",
+          "fullDescription": "readonly fields can only be assigned in a class constructor. If a class has a field that’s not marked readonly but is only set in the constructor, it could cause confusion about the field’s intended use. To avoid confusion, such fields should be marked readonly to make their intended use explicit, and to prevent future maintainers from inadvertently changing their use.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-2933",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S3246": {
+          "id": "S3246",
+          "shortDescription": "Generic type parameters should be co/contravariant when possible",
+          "fullDescription": "In the interests of making code as usable as possible, interfaces and delegates with generic parameters should use the out and in modifiers when possible to make the interfaces and delegates covariant and contravariant, respectively.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3246",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S3376": {
+          "id": "S3376",
+          "shortDescription": "Attribute, EventArgs, and Exception type names should end with the type being extended",
+          "fullDescription": "Adherence to the standard naming conventions makes your code not only more readable, but more usable. For instance, class FirstAttribute : Attribute can be used simply with First, but you must use the full name for class AttributeOne : Attribute.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3376",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S927": {
+          "id": "S927",
+          "shortDescription": "Parameter names should match base declaration and other partial definitions",
+          "fullDescription": "The name of a parameter in an externally visible. This rule raises an issue when method override does not match the name of the parameter in the base declaration of the method, or the name of the parameter in the interface declaration of the method or the name of any other partial definition.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-927",
+          "properties": {
+            "category": "Critical Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}
